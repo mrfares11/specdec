@@ -1,0 +1,16 @@
+{
+  "session": "s1",
+  "runs": 72,
+  "failed": [],
+  "ar_ms_per_token_min": 17.285529412329197,
+  "ar_ms_per_token_max": 19.356952162925154,
+  "ar_ms_per_token_mean": 18.134552127950073,
+  "ar_range_frac": 0.11422519486452354,
+  "ar_cv": 0.024947034698806166,
+  "ar_early_mean": 18.06974511683317,
+  "ar_late_mean": 18.06485082755292,
+  "ar_temporal_drift": 0.00027085546855290884,
+  "drift_threshold": 0.03,
+  "rejected": false,
+  "rejection_reason": ""
+}

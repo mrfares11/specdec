@@ -1,0 +1,2 @@
+K,num_nodes,mean_accept_len,tokens_per_step,spec_ms_per_token,ar_ms_per_token,speedup,lossless_vs_ar,t_draft_ms_per_step,t_tree_forward_ms_per_step,t_verify_ms_per_step,t_commit_ms_per_step
+8,256,2.5311118667120027,3.481808908534512,12.058187580441881,17.675626326308702,1.4658609520205328,NO,17.724681344796547,20.904143587570537,0.14940604810729313,2.4377246074117553

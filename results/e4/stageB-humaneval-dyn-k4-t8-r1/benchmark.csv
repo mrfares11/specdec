@@ -1,0 +1,2 @@
+K,num_nodes,mean_accept_len,tokens_per_step,spec_ms_per_token,ar_ms_per_token,speedup,lossless_vs_ar
+4,256,3.203631647211414,4.150453955901427,8.873429021332413,17.38264768035151,1.958954947243312,NO

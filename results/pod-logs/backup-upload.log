@@ -1,0 +1,390 @@
+UPLOADING m3/m3-sw20k-step_10000.pt (2.8 GB)
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ts/m3-sw20k/step_10000.pt:   0%|          |  554kB / 3.02GB            [A[A
+
+  ...ts/m3-sw20k/step_10000.pt:   0%|          |  554kB / 3.02GB            [A[AProcessing Files (0 / 1)      :   0%|          |  554kB / 3.02GB, 52.0kB/s  
+New Data Upload               :   1%|          |  554kB / 67.1MB, 52.0kB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   0%|          | 1.11MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   0%|          | 1.11MB / 3.02GB, 98.1kB/s  
+New Data Upload               :   2%|▏         | 1.11MB / 67.1MB, 98.1kB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   0%|          | 3.88MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   0%|          | 3.88MB / 3.02GB,  348kB/s  
+New Data Upload               :   3%|▎         | 3.88MB /  134MB,  348kB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   0%|          | 7.75MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   0%|          | 7.75MB / 3.02GB,  691kB/s  
+New Data Upload               :   4%|▍         | 7.75MB /  201MB,  691kB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   0%|          | 11.1MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   0%|          | 11.1MB / 3.02GB,  975kB/s  
+New Data Upload               :   6%|▌         | 11.1MB /  201MB,  975kB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   1%|          | 22.2MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   1%|          | 22.2MB / 3.02GB, 1.95MB/s  
+New Data Upload               :  11%|█         | 22.2MB /  201MB, 1.95MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   2%|▏         | 46.0MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 46.0MB / 3.02GB, 4.02MB/s  
+New Data Upload               :  23%|██▎       | 46.0MB /  201MB, 4.02MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   2%|▏         | 69.3MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 69.3MB / 3.02GB, 6.01MB/s  
+New Data Upload               :  34%|███▍      | 69.3MB /  201MB, 6.01MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   2%|▏         | 70.4MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 70.4MB / 3.02GB, 5.97MB/s  
+New Data Upload               :  35%|███▍      | 70.4MB /  201MB, 5.97MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   2%|▏         | 74.3MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 74.3MB / 3.02GB, 6.18MB/s  
+New Data Upload               :  37%|███▋      | 74.3MB /  201MB, 6.18MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   3%|▎         | 82.1MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   3%|▎         | 82.1MB / 3.02GB, 6.72MB/s  
+New Data Upload               :  41%|████      | 82.1MB /  201MB, 6.72MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   3%|▎         | 98.1MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   3%|▎         | 98.1MB / 3.02GB, 7.97MB/s  
+New Data Upload               :  49%|████▊     | 98.1MB /  201MB, 7.97MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   4%|▍         |  114MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   4%|▍         |  114MB / 3.02GB, 9.15MB/s  
+New Data Upload               :  56%|█████▋    |  114MB /  201MB, 9.15MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   4%|▍         |  134MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   4%|▍         |  134MB / 3.02GB, 10.7MB/s  
+New Data Upload               :  67%|██████▋   |  134MB /  201MB, 10.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   7%|▋         |  201MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   7%|▋         |  201MB / 3.02GB, 13.3MB/s  
+New Data Upload               : 100%|█████████▉|  201MB /  201MB, 13.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   7%|▋         |  201MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   7%|▋         |  201MB / 3.02GB, 12.7MB/s  
+New Data Upload               : 100%|█████████▉|  201MB /  201MB, 12.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   7%|▋         |  201MB / 3.02GB            [A[A
+
+  ...ts/m3-sw20k/step_10000.pt:   9%|▉         |  268MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   9%|▉         |  268MB / 3.02GB, 17.6MB/s  
+New Data Upload               :  80%|████████  |  268MB /  335MB, 17.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   9%|▉         |  269MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   9%|▉         |  269MB / 3.02GB, 17.3MB/s  
+New Data Upload               :  80%|████████  |  269MB /  335MB, 17.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   9%|▉         |  272MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   9%|▉         |  272MB / 3.02GB, 16.2MB/s  
+New Data Upload               :  67%|██████▋   |  272MB /  403MB, 16.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   9%|▉         |  273MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   9%|▉         |  273MB / 3.02GB, 16.0MB/s  
+New Data Upload               :  68%|██████▊   |  273MB /  403MB, 16.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   9%|▉         |  277MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   9%|▉         |  277MB / 3.02GB, 16.0MB/s  
+New Data Upload               :  69%|██████▉   |  277MB /  403MB, 16.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:   9%|▉         |  286MB / 3.02GB            [A[AProcessing Files (0 / 1)      :   9%|▉         |  286MB / 3.02GB, 16.4MB/s  
+New Data Upload               :  71%|███████   |  286MB /  403MB, 16.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  10%|█         |  306MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  10%|█         |  306MB / 3.02GB, 17.6MB/s  
+New Data Upload               :  76%|███████▌  |  306MB /  403MB, 17.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  11%|█         |  338MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  11%|█         |  338MB / 3.02GB, 19.8MB/s  
+New Data Upload               :  84%|████████▍ |  338MB /  403MB, 19.8MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  11%|█▏        |  340MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  11%|█▏        |  340MB / 3.02GB, 19.6MB/s  
+New Data Upload               :  85%|████████▍ |  340MB /  403MB, 19.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  11%|█▏        |  347MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  11%|█▏        |  347MB / 3.02GB, 19.7MB/s  
+New Data Upload               :  74%|███████▍  |  347MB /  470MB, 19.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  12%|█▏        |  361MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  12%|█▏        |  361MB / 3.02GB, 20.4MB/s  
+New Data Upload               :  77%|███████▋  |  361MB /  470MB, 20.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  13%|█▎        |  387MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  13%|█▎        |  387MB / 3.02GB, 22.1MB/s  
+New Data Upload               :  82%|████████▏ |  387MB /  470MB, 22.1MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  13%|█▎        |  403MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  13%|█▎        |  403MB / 3.02GB, 22.9MB/s  
+New Data Upload               :  75%|███████▌  |  403MB /  537MB, 22.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  13%|█▎        |  404MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  13%|█▎        |  404MB / 3.02GB, 22.5MB/s  
+New Data Upload               :  75%|███████▌  |  404MB /  537MB, 22.5MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  13%|█▎        |  408MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  13%|█▎        |  408MB / 3.02GB, 22.3MB/s  
+New Data Upload               :  76%|███████▌  |  408MB /  537MB, 22.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  14%|█▎        |  414MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  14%|█▎        |  414MB / 3.02GB, 22.4MB/s  
+New Data Upload               :  69%|██████▊   |  414MB /  604MB, 22.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  14%|█▍        |  425MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  14%|█▍        |  425MB / 3.02GB, 22.8MB/s  
+New Data Upload               :  63%|██████▎   |  425MB /  671MB, 22.8MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  17%|█▋        |  528MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  17%|█▋        |  528MB / 3.02GB, 30.3MB/s  
+New Data Upload               :  72%|███████▏  |  528MB /  738MB, 30.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  18%|█▊        |  540MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  18%|█▊        |  540MB / 3.02GB, 30.6MB/s  
+New Data Upload               :  67%|██████▋   |  540MB /  805MB, 30.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  18%|█▊        |  545MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  18%|█▊        |  545MB / 3.02GB, 30.4MB/s  
+New Data Upload               :  68%|██████▊   |  545MB /  805MB, 30.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  20%|██        |  618MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  20%|██        |  618MB / 3.02GB, 35.4MB/s  
+New Data Upload               :  77%|███████▋  |  618MB /  805MB, 35.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  21%|██        |  624MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  21%|██        |  624MB / 3.02GB, 35.2MB/s  
+New Data Upload               :  78%|███████▊  |  624MB /  805MB, 35.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  21%|██▏       |  645MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  21%|██▏       |  645MB / 3.02GB, 36.1MB/s  
+New Data Upload               :  74%|███████▍  |  645MB /  872MB, 36.1MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  22%|██▏       |  653MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  22%|██▏       |  653MB / 3.02GB, 36.0MB/s  
+New Data Upload               :  75%|███████▍  |  653MB /  872MB, 36.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  23%|██▎       |  692MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  23%|██▎       |  692MB / 3.02GB, 38.3MB/s  
+New Data Upload               :  79%|███████▉  |  692MB /  872MB, 38.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  24%|██▍       |  740MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  24%|██▍       |  740MB / 3.02GB, 41.2MB/s  
+New Data Upload               :  85%|████████▍ |  740MB /  872MB, 41.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  25%|██▍       |  743MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  25%|██▍       |  743MB / 3.02GB, 40.7MB/s  
+New Data Upload               :  85%|████████▌ |  743MB /  872MB, 40.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  25%|██▌       |  756MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  25%|██▌       |  756MB / 3.02GB, 40.8MB/s  
+New Data Upload               :  80%|████████  |  756MB /  939MB, 40.8MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  26%|██▌       |  776MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  26%|██▌       |  776MB / 3.02GB, 41.6MB/s  
+New Data Upload               :  77%|███████▋  |  776MB / 1.01GB, 41.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  29%|██▉       |  876MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  29%|██▉       |  876MB / 3.02GB, 48.3MB/s  
+New Data Upload               :  87%|████████▋ |  876MB / 1.01GB, 48.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  29%|██▉       |  880MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  29%|██▉       |  880MB / 3.02GB, 47.7MB/s  
+New Data Upload               :  82%|████████▏ |  880MB / 1.07GB, 47.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  32%|███▏      |  954MB / 3.02GB            [A[AProcessing Files (0 / 1)      :  32%|███▏      |  954MB / 3.02GB, 52.4MB/s  
+New Data Upload               :  84%|████████▎ |  954MB / 1.14GB, 52.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  33%|███▎      | 1.01GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  33%|███▎      | 1.01GB / 3.02GB, 55.2MB/s  
+New Data Upload               :  88%|████████▊ | 1.01GB / 1.14GB, 55.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  35%|███▍      | 1.05GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  35%|███▍      | 1.05GB / 3.02GB, 57.9MB/s  
+New Data Upload               :  93%|█████████▎| 1.05GB / 1.14GB, 57.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  36%|███▌      | 1.08GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  36%|███▌      | 1.08GB / 3.02GB, 58.7MB/s  
+New Data Upload               :  95%|█████████▍| 1.08GB / 1.14GB, 58.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  36%|███▌      | 1.09GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  36%|███▌      | 1.09GB / 3.02GB, 58.2MB/s  
+New Data Upload               :  95%|█████████▌| 1.09GB / 1.14GB, 58.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  37%|███▋      | 1.11GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  37%|███▋      | 1.11GB / 3.02GB, 58.4MB/s  
+New Data Upload               :  92%|█████████▏| 1.11GB / 1.21GB, 58.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  38%|███▊      | 1.14GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  38%|███▊      | 1.14GB / 3.02GB, 59.8MB/s  
+New Data Upload               :  89%|████████▉ | 1.14GB / 1.27GB, 59.8MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  38%|███▊      | 1.14GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  38%|███▊      | 1.14GB / 3.02GB, 58.9MB/s  
+New Data Upload               :  85%|████████▌ | 1.14GB / 1.34GB, 58.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  38%|███▊      | 1.14GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  38%|███▊      | 1.14GB / 3.02GB, 57.8MB/s  
+New Data Upload               :  85%|████████▌ | 1.14GB / 1.34GB, 57.8MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  38%|███▊      | 1.14GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  38%|███▊      | 1.14GB / 3.02GB, 56.8MB/s  
+New Data Upload               :  85%|████████▌ | 1.14GB / 1.34GB, 56.8MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  38%|███▊      | 1.14GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  38%|███▊      | 1.14GB / 3.02GB, 55.9MB/s  
+New Data Upload               :  85%|████████▌ | 1.14GB / 1.34GB, 55.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  38%|███▊      | 1.15GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  38%|███▊      | 1.15GB / 3.02GB, 55.2MB/s  
+New Data Upload               :  82%|████████▏ | 1.15GB / 1.41GB, 55.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  41%|████      | 1.23GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  41%|████      | 1.23GB / 3.02GB, 59.9MB/s  
+New Data Upload               :  83%|████████▎ | 1.23GB / 1.48GB, 59.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  42%|████▏     | 1.25GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  42%|████▏     | 1.25GB / 3.02GB, 60.7MB/s  
+New Data Upload               :  85%|████████▍ | 1.25GB / 1.48GB, 60.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  43%|████▎     | 1.30GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  43%|████▎     | 1.30GB / 3.02GB, 63.2MB/s  
+New Data Upload               :  84%|████████▍ | 1.30GB / 1.54GB, 63.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  47%|████▋     | 1.42GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  47%|████▋     | 1.42GB / 3.02GB, 70.7MB/s  
+New Data Upload               :  92%|█████████▏| 1.42GB / 1.54GB, 70.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  48%|████▊     | 1.44GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  48%|████▊     | 1.44GB / 3.02GB, 70.9MB/s  
+New Data Upload               :  90%|████████▉ | 1.44GB / 1.61GB, 70.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  51%|█████▏    | 1.55GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  51%|█████▏    | 1.55GB / 3.02GB, 77.7MB/s  
+New Data Upload               :  93%|█████████▎| 1.55GB / 1.68GB, 77.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  53%|█████▎    | 1.61GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  53%|█████▎    | 1.61GB / 3.02GB, 80.8MB/s  
+New Data Upload               :  96%|█████████▌| 1.61GB / 1.68GB, 80.8MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  56%|█████▌    | 1.68GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  56%|█████▌    | 1.68GB / 3.02GB, 84.5MB/s  
+New Data Upload               :  97%|█████████▋| 1.68GB / 1.74GB, 84.5MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  56%|█████▌    | 1.69GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  56%|█████▌    | 1.69GB / 3.02GB, 83.5MB/s  
+New Data Upload               :  97%|█████████▋| 1.69GB / 1.74GB, 83.5MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  57%|█████▋    | 1.71GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  57%|█████▋    | 1.71GB / 3.02GB, 83.2MB/s  
+New Data Upload               :  98%|█████████▊| 1.71GB / 1.74GB, 83.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  58%|█████▊    | 1.74GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  58%|█████▊    | 1.74GB / 3.02GB, 84.2MB/s  
+New Data Upload               : 100%|█████████▉| 1.74GB / 1.74GB, 84.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  58%|█████▊    | 1.74GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  58%|█████▊    | 1.74GB / 3.02GB, 82.7MB/s  
+New Data Upload               : 100%|█████████▉| 1.74GB / 1.74GB, 82.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  59%|█████▉    | 1.79GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  59%|█████▉    | 1.79GB / 3.02GB, 84.4MB/s  
+New Data Upload               :  99%|█████████▊| 1.79GB / 1.81GB, 84.4MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  60%|█████▉    | 1.81GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  60%|█████▉    | 1.81GB / 3.02GB, 84.6MB/s  
+New Data Upload               : 100%|█████████▉| 1.81GB / 1.81GB, 84.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  62%|██████▏   | 1.88GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  62%|██████▏   | 1.88GB / 3.02GB, 87.9MB/s  
+New Data Upload               : 100%|█████████▉| 1.88GB / 1.88GB, 87.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  62%|██████▏   | 1.88GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  62%|██████▏   | 1.88GB / 3.02GB, 86.3MB/s  
+New Data Upload               :  97%|█████████▋| 1.88GB / 1.94GB, 86.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  64%|██████▍   | 1.94GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  64%|██████▍   | 1.94GB / 3.02GB, 89.6MB/s  
+New Data Upload               : 100%|█████████▉| 1.94GB / 1.94GB, 89.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  64%|██████▍   | 1.94GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  64%|██████▍   | 1.94GB / 3.02GB, 88.0MB/s  
+New Data Upload               :  97%|█████████▋| 1.94GB / 2.01GB, 88.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  67%|██████▋   | 2.01GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  67%|██████▋   | 2.01GB / 3.02GB, 91.2MB/s  
+New Data Upload               : 100%|█████████▉| 2.01GB / 2.01GB, 91.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  67%|██████▋   | 2.01GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  67%|██████▋   | 2.01GB / 3.02GB, 88.0MB/s  
+New Data Upload               :  97%|█████████▋| 2.01GB / 2.08GB, 88.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  69%|██████▉   | 2.08GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  69%|██████▉   | 2.08GB / 3.02GB, 91.2MB/s  
+New Data Upload               : 100%|█████████▉| 2.08GB / 2.08GB, 91.2MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  69%|██████▉   | 2.08GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  69%|██████▉   | 2.08GB / 3.02GB, 89.6MB/s  
+New Data Upload               :  97%|█████████▋| 2.08GB / 2.15GB, 89.6MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  71%|███████   | 2.15GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  71%|███████   | 2.15GB / 3.02GB, 93.0MB/s  
+New Data Upload               :  97%|█████████▋| 2.15GB / 2.21GB, 93.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  73%|███████▎  | 2.21GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  73%|███████▎  | 2.21GB / 3.02GB, 95.9MB/s  
+New Data Upload               :  97%|█████████▋| 2.21GB / 2.28GB, 95.9MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  76%|███████▌  | 2.28GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  76%|███████▌  | 2.28GB / 3.02GB, 99.0MB/s  
+New Data Upload               : 100%|█████████▉| 2.28GB / 2.28GB, 99.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  76%|███████▌  | 2.29GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  76%|███████▌  | 2.29GB / 3.02GB, 98.3MB/s  
+New Data Upload               :  98%|█████████▊| 2.29GB / 2.35GB, 98.3MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  78%|███████▊  | 2.35GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  78%|███████▊  | 2.35GB / 3.02GB,  100MB/s  
+New Data Upload               : 100%|█████████▉| 2.35GB / 2.35GB,  100MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  78%|███████▊  | 2.35GB / 3.02GB            [A[A
+
+  ...ts/m3-sw20k/step_10000.pt:  80%|███████▉  | 2.41GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  80%|███████▉  | 2.41GB / 3.02GB,  102MB/s  
+New Data Upload               :  97%|█████████▋| 2.41GB / 2.48GB,  102MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  84%|████████▍ | 2.55GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  84%|████████▍ | 2.55GB / 3.02GB,  109MB/s  
+New Data Upload               : 100%|█████████▉| 2.55GB / 2.55GB,  109MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  85%|████████▌ | 2.58GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  85%|████████▌ | 2.58GB / 3.02GB,  108MB/s  
+New Data Upload               :  99%|█████████▊| 2.58GB / 2.62GB,  108MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  87%|████████▋ | 2.62GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  87%|████████▋ | 2.62GB / 3.02GB,  108MB/s  
+New Data Upload               : 100%|█████████▉| 2.62GB / 2.62GB,  108MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  88%|████████▊ | 2.67GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  88%|████████▊ | 2.67GB / 3.02GB,  110MB/s  
+New Data Upload               : 100%|█████████▉| 2.67GB / 2.68GB,  110MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  89%|████████▉ | 2.68GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  89%|████████▉ | 2.68GB / 3.02GB,  109MB/s  
+New Data Upload               : 100%|█████████▉| 2.68GB / 2.68GB,  109MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  89%|████████▉ | 2.68GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  89%|████████▉ | 2.68GB / 3.02GB,  107MB/s  
+New Data Upload               : 100%|█████████▉| 2.68GB / 2.68GB,  107MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  91%|█████████ | 2.75GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  91%|█████████ | 2.75GB / 3.02GB,  108MB/s  
+New Data Upload               : 100%|█████████▉| 2.75GB / 2.75GB,  108MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  93%|█████████▎| 2.82GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  93%|█████████▎| 2.82GB / 3.02GB,  109MB/s  
+New Data Upload               : 100%|█████████▉| 2.82GB / 2.82GB,  109MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  93%|█████████▎| 2.82GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  93%|█████████▎| 2.82GB / 3.02GB,  107MB/s  
+New Data Upload               : 100%|█████████▉| 2.82GB / 2.82GB,  107MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  95%|█████████▌| 2.88GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  95%|█████████▌| 2.88GB / 3.02GB,  110MB/s  
+New Data Upload               :  97%|█████████▋| 2.88GB / 2.95GB,  110MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  97%|█████████▋| 2.94GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  97%|█████████▋| 2.94GB / 3.02GB,  112MB/s  
+New Data Upload               : 100%|█████████▉| 2.94GB / 2.95GB,  112MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt:  98%|█████████▊| 2.95GB / 3.02GB            [A[AProcessing Files (0 / 1)      :  98%|█████████▊| 2.95GB / 3.02GB,  111MB/s  
+New Data Upload               :  98%|█████████▊| 2.95GB / 3.02GB,  111MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB,  114MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB,  114MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB,  112MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB,  112MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB,  110MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB,  110MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB,  108MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB,  108MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB,  104MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB,  104MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB,  102MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB,  102MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB, 98.7MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB, 98.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB, 92.0MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB, 92.0MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB, 85.7MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB, 85.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|█████████▉| 3.02GB / 3.02GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 3.02GB / 3.02GB, 82.7MB/s  
+New Data Upload               : 100%|█████████▉| 3.02GB / 3.02GB, 82.7MB/s  [A
+
+  ...ts/m3-sw20k/step_10000.pt: 100%|██████████| 3.02GB / 3.02GB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 3.02GB / 3.02GB, 79.8MB/s  
+New Data Upload               : 100%|██████████| 3.02GB / 3.02GB, 79.8MB/s  [AProcessing Files (1 / 1)      : 100%|██████████| 3.02GB / 3.02GB, 79.8MB/s  
+New Data Upload               : 100%|██████████| 3.02GB / 3.02GB, 79.8MB/s  
+  ...ts/m3-sw20k/step_10000.pt: 100%|██████████| 3.02GB / 3.02GB            
+OK m3/m3-sw20k-step_10000.pt
+UPLOADING m3/m3-sw20k-model_2000.pt (0.9 GB)
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ts/m3-sw20k/model_2000.pt:  21%|██▏       |  216MB / 1.01GB            [A[A
+
+  ...ts/m3-sw20k/model_2000.pt:  21%|██▏       |  216MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  21%|██▏       |  216MB / 1.01GB,   ???B/s  
+
+  ...ts/m3-sw20k/model_2000.pt:  40%|████      |  407MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  40%|████      |  407MB / 1.01GB, 39.5MB/s  
+
+  ...ts/m3-sw20k/model_2000.pt:  63%|██████▎   |  631MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  63%|██████▎   |  631MB / 1.01GB, 60.2MB/s  
+
+  ...ts/m3-sw20k/model_2000.pt:  82%|████████▏ |  823MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  82%|████████▏ |  823MB / 1.01GB, 77.3MB/s  
+
+  ...ts/m3-sw20k/model_2000.pt: 100%|█████████▉| 1.01GB / 1.01GB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉| 1.01GB / 1.01GB, 93.0MB/s  
+New Data Upload               : 100%|█████████▉|  700kB /  700kB, 67.0kB/s  [A
+
+  ...ts/m3-sw20k/model_2000.pt: 100%|██████████| 1.01GB / 1.01GB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 1.01GB / 1.01GB, 88.6MB/s  
+New Data Upload               : 100%|██████████|  700kB /  700kB, 63.8kB/s  [AProcessing Files (1 / 1)      : 100%|██████████| 1.01GB / 1.01GB, 88.6MB/s  
+New Data Upload               : 100%|██████████|  700kB /  700kB, 63.8kB/s  
+  ...ts/m3-sw20k/model_2000.pt: 100%|██████████| 1.01GB / 1.01GB            
+OK m3/m3-sw20k-model_2000.pt
+UPLOADING m3/m3-sw20k-model_5000.pt (0.9 GB)
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...ts/m3-sw20k/model_5000.pt:   7%|▋         | 67.1MB / 1.01GB            [A[A
+
+  ...ts/m3-sw20k/model_5000.pt:   7%|▋         | 67.1MB / 1.01GB            [A[AProcessing Files (0 / 1)      :   7%|▋         | 67.1MB / 1.01GB, 6.46MB/s  
+New Data Upload               : 100%|█████████▉| 67.1MB / 67.1MB, 6.46MB/s  [A
+
+  ...ts/m3-sw20k/model_5000.pt:   7%|▋         | 67.1MB / 1.01GB            [A[A
+
+  ...ts/m3-sw20k/model_5000.pt:  13%|█▎        |  134MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  13%|█▎        |  134MB / 1.01GB, 12.3MB/s  
+New Data Upload               : 100%|█████████▉|  134MB /  134MB, 12.3MB/s  [A
+
+  ...ts/m3-sw20k/model_5000.pt:  13%|█▎        |  134MB / 1.01GB            [A[A
+
+  ...ts/m3-sw20k/model_5000.pt:  20%|█▉        |  201MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  20%|█▉        |  201MB / 1.01GB, 18.0MB/s  
+New Data Upload               :  75%|███████▍  |  201MB /  268MB, 18.0MB/s  [A
+
+  ...ts/m3-sw20k/model_5000.pt:  27%|██▋       |  268MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  27%|██▋       |  268MB / 1.01GB, 23.8MB/s  
+New Data Upload               : 100%|█████████▉|  268MB /  268MB, 23.8MB/s  [A
+
+  ...ts/m3-sw20k/model_5000.pt:  27%|██▋       |  268MB / 1.01GB            [A[A
+
+  ...ts/m3-sw20k/model_5000.pt:  33%|███▎      |  335MB / 1.01GB            [A[AProcessing Files (0 / 1)      :  33%|███▎      |  335MB / 1.01GB, 28.9MB/s  
+New Data Upload               : 100%|█████████▉|  335MB /  335MB, 28.9MB/s  [A

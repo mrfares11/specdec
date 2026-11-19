@@ -1,0 +1,15 @@
+NIGHT3_PHASE_START
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-static-t8/raw_prompt_results.csv (25 per-prompt rows)
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-static-t8/benchmark.csv and /workspace/specdec-runs/results/e4/attrib-static-t8/benchmark.png
+E4A_DONE static-t8
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-dyn-t8/raw_prompt_results.csv (25 per-prompt rows)
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-dyn-t8/benchmark.csv and /workspace/specdec-runs/results/e4/attrib-dyn-t8/benchmark.png
+E4A_DONE dyn-t8
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-static-t208/raw_prompt_results.csv (25 per-prompt rows)
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-static-t208/benchmark.csv and /workspace/specdec-runs/results/e4/attrib-static-t208/benchmark.png
+E4A_DONE static-t208
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-dyn-t208/raw_prompt_results.csv (25 per-prompt rows)
+[eval] wrote /workspace/specdec-runs/results/e4/attrib-dyn-t208/benchmark.csv and /workspace/specdec-runs/results/e4/attrib-dyn-t208/benchmark.png
+E4A_DONE dyn-t208
+NIGHT3_PHASE_E4_ATTRIB_DONE
+NIGHT3_ALL_DONE

@@ -1,0 +1,29 @@
+NIGHT4_PHASE_START
+[E1-B-float32] prompt 78: 128 positions
+[E1] {"procedure": "B", "precision": "float32", "positions": 3200, "argmax_agree": 3200, "argmax_agreement": 1.0}
+E1B2_DONE margins-humaneval-float32
+[E1-B-float32] prompt 38: 128 positions
+[E1] {"procedure": "B", "precision": "float32", "positions": 3200, "argmax_agree": 3200, "argmax_agreement": 1.0}
+E1B2_DONE margins-mtbench-float32
+[E1-B-float32] prompt 550: 128 positions
+[E1] {"procedure": "B", "precision": "float32", "positions": 3200, "argmax_agree": 3200, "argmax_agreement": 1.0}
+E1B2_DONE margins-gsm8k-float32
+[E1-B-float32] prompt 28039: 128 positions
+[E1] {"procedure": "B", "precision": "float32", "positions": 3200, "argmax_agree": 3200, "argmax_agreement": 1.0}
+E1B2_DONE margins-alpaca-float32
+[E1-B-bfloat16] prompt 78: 128 positions
+[E1] {"procedure": "B", "precision": "bfloat16", "positions": 3200, "argmax_agree": 3187, "argmax_agreement": 0.9959375}
+E1B2_DONE margins-humaneval-bfloat16
+[E1-B-bfloat16] prompt 38: 128 positions
+[E1] {"procedure": "B", "precision": "bfloat16", "positions": 3200, "argmax_agree": 3153, "argmax_agreement": 0.9853125}
+E1B2_DONE margins-mtbench-bfloat16
+[E1-B-bfloat16] prompt 550: 128 positions
+[E1] {"procedure": "B", "precision": "bfloat16", "positions": 3200, "argmax_agree": 3170, "argmax_agreement": 0.990625}
+E1B2_DONE margins-gsm8k-bfloat16
+[E1-B-bfloat16] prompt 28039: 128 positions
+[E1] {"procedure": "B", "precision": "bfloat16", "positions": 3200, "argmax_agree": 3162, "argmax_agreement": 0.988125}
+E1B2_DONE margins-alpaca-bfloat16
+NIGHT4_PHASE_ULP_DONE
+  "procedure_b_positions": 25600
+}
+NIGHT4_ALL_DONE

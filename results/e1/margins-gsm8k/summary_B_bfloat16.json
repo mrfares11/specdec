@@ -1,0 +1,7 @@
+{
+  "procedure": "B",
+  "precision": "bfloat16",
+  "positions": 3200,
+  "argmax_agree": 3170,
+  "argmax_agreement": 0.990625
+}

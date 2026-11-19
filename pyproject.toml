@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specdec"
+version = "0.1.0"
+description = "Speculative decoding research scaffold: frozen Llama-3 verifier, EAGLE/HASS-style drafter, tree verification"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "transformers>=4.46,<5",
+    "omegaconf>=2.3",
+    "safetensors>=0.4",
+    "numpy",
+    "tqdm",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+data = ["datasets>=2.19"]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = [
+    "src",
+    "src.common",
+    "src.profiling",
+    "src.data",
+    "src.models",
+    "src.train",
+    "src.decode",
+    "src.eval",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::FutureWarning",
+    "ignore::UserWarning",
+]

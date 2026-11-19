@@ -1,0 +1,10 @@
+{
+  "procedure": "A",
+  "precision": "bfloat16",
+  "K": 4,
+  "positions_matched": 3150,
+  "positions_compared": 3200,
+  "token_agreement": 0.984375,
+  "sequences_exact": 24,
+  "sequences": 25
+}

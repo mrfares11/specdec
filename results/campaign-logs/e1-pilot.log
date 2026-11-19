@@ -1,0 +1,16 @@
+[E1] precision=torch.float32 procedure=A K=4 prompts=8 source=humaneval
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.21it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.78it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.53it/s]
+/workspace/specdec/scripts/e1_correctness.py:54: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(str(cfg.eval.drafter_ckpt), map_location=device)
+[E1-float32] prompt 112: 128/128 matched
+[E1-float32] prompt 99: 128/128 matched
+[E1-float32] prompt 93: 128/128 matched
+[E1-float32] prompt 138: 128/128 matched
+[E1-float32] prompt 15: 128/128 matched
+[E1-float32] prompt 48: 128/128 matched
+[E1-float32] prompt 76: 128/128 matched
+[E1-float32] prompt 44: 128/128 matched
+[E1] {"procedure": "A", "precision": "float32", "K": 4, "positions_matched": 1024, "positions_compared": 1024, "token_agreement": 1.0, "sequences_exact": 8, "sequences": 8}
+[E1] float32 free-running equivalence: EXACT
+E1_PILOT_EXIT=0

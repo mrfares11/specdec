@@ -1,0 +1,21 @@
+{
+  "git_commit": "13452423ade7d81c65eba02d83d92e669fc712b5",
+  "timestamp_utc": "2026-09-08T01:37:01+00:00",
+  "host_id": "fff2b7a1441e",
+  "gpu_uuid": "GPU-b73b7579-d312-c95a-e32e-690671187fe0",
+  "verifier_revision": "NousResearch/Meta-Llama-3-8B-Instruct@default",
+  "drafter_checkpoint_sha": "72e9331a1deb1521c6aba8a79fb534b7ec8da50344ef0583683b3f56e84c319f",
+  "precision": "bfloat16",
+  "thread_cap": "8",
+  "seed": "0",
+  "python": "3.11.10",
+  "torch": "2.4.1+cu124",
+  "cuda": "12.4",
+  "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+  "torch_num_threads": 8,
+  "torch_num_interop_threads": 104,
+  "omp_num_threads": "8",
+  "mkl_num_threads": "8",
+  "cpu_count": 208,
+  "transformers": "4.57.6"
+}

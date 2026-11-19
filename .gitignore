@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+runs/
+*.safetensors
+manifest.json.tmp
+.hypothesis/
+.ipynb_checkpoints/
+results/
+
+# LaTeX build artifacts (paper/ source is tracked)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.pdf
+
+# Reference papers and unrelated-project PDFs stay local; only the built paper ships.
+*.pdf
+!paper/main.pdf
+!paper/figures/*.pdf
+docs/*.html

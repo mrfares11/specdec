@@ -1,0 +1,227 @@
+[E2] session=c1 cells=36 repeats=3 total_runs=108 prompts=50
+[E2] --- repeat 1/3 ---
+[E2] OK   base-dyn-mbpp-k4-c1-r1 (3.3 min)
+[E2] OK   eagle-dyn-alpaca-k8-c1-r1 (3.5 min)
+[E2] OK   eagle-static-mbpp-k8-c1-r1 (3.8 min)
+[E2] OK   eagle-dyn-gsm8k-k8-c1-r1 (3.3 min)
+[E2] OK   scaled-static-mbpp-k4-c1-r1 (3.8 min)
+[E2] OK   scaled-dyn-alpaca-k4-c1-r1 (3.3 min)
+[E2] OK   scaled-static-mbpp-k8-c1-r1 (3.6 min)
+[E2] OK   base-static-mbpp-k8-c1-r1 (3.7 min)
+[E2] OK   eagle-static-gsm8k-k8-c1-r1 (3.6 min)
+[E2] OK   base-static-alpaca-k4-c1-r1 (3.7 min)
+[E2] OK   base-static-gsm8k-k4-c1-r1 (3.8 min)
+[E2] OK   base-dyn-mbpp-k8-c1-r1 (3.2 min)
+[E2] OK   eagle-static-mbpp-k4-c1-r1 (3.4 min)
+[E2] OK   base-dyn-gsm8k-k8-c1-r1 (3.4 min)
+[E2] OK   eagle-dyn-mbpp-k4-c1-r1 (3.1 min)
+[E2] OK   scaled-dyn-alpaca-k8-c1-r1 (3.6 min)
+[E2] OK   scaled-dyn-mbpp-k8-c1-r1 (3.2 min)
+[E2] OK   base-dyn-alpaca-k4-c1-r1 (3.4 min)
+[E2] OK   scaled-static-alpaca-k8-c1-r1 (3.7 min)
+[E2] OK   eagle-dyn-alpaca-k4-c1-r1 (3.2 min)
+[E2] OK   base-static-mbpp-k4-c1-r1 (3.5 min)
+[E2] OK   scaled-static-alpaca-k4-c1-r1 (3.6 min)
+[E2] OK   eagle-dyn-mbpp-k8-c1-r1 (3.2 min)
+[E2] OK   scaled-dyn-mbpp-k4-c1-r1 (3.1 min)
+[E2] OK   eagle-static-gsm8k-k4-c1-r1 (3.6 min)
+[E2] OK   base-static-alpaca-k8-c1-r1 (3.8 min)
+[E2] OK   eagle-dyn-gsm8k-k4-c1-r1 (3.1 min)
+[E2] OK   base-dyn-alpaca-k8-c1-r1 (3.5 min)
+[E2] OK   eagle-static-alpaca-k4-c1-r1 (3.7 min)
+[E2] OK   scaled-static-gsm8k-k8-c1-r1 (3.7 min)
+[E2] OK   scaled-dyn-gsm8k-k4-c1-r1 (3.1 min)
+[E2] OK   eagle-static-alpaca-k8-c1-r1 (3.7 min)
+[E2] OK   base-dyn-gsm8k-k4-c1-r1 (3.5 min)
+[E2] OK   scaled-dyn-gsm8k-k8-c1-r1 (3.4 min)
+[E2] OK   base-static-gsm8k-k8-c1-r1 (3.8 min)
+[E2] OK   scaled-static-gsm8k-k4-c1-r1 (3.7 min)
+[E2] --- repeat 2/3 ---
+[E2] OK   scaled-static-mbpp-k8-c1-r2 (3.6 min)
+[E2] OK   eagle-dyn-alpaca-k4-c1-r2 (3.2 min)
+[E2] OK   scaled-dyn-alpaca-k4-c1-r2 (3.4 min)
+[E2] OK   eagle-static-mbpp-k8-c1-r2 (3.7 min)
+[E2] OK   base-dyn-mbpp-k4-c1-r2 (3.8 min)
+[E2] OK   scaled-dyn-mbpp-k8-c1-r2 (3.5 min)
+[E2] OK   eagle-dyn-alpaca-k8-c1-r2 (3.5 min)
+[E2] OK   scaled-static-mbpp-k4-c1-r2 (3.6 min)
+[E2] OK   eagle-static-alpaca-k8-c1-r2 (3.9 min)
+[E2] OK   scaled-static-gsm8k-k4-c1-r2 (3.7 min)
+[E2] OK   eagle-dyn-gsm8k-k4-c1-r2 (3.2 min)
+[E2] OK   scaled-dyn-gsm8k-k4-c1-r2 (3.2 min)
+[E2] OK   base-dyn-gsm8k-k8-c1-r2 (3.5 min)
+[E2] OK   base-dyn-alpaca-k8-c1-r2 (3.5 min)
+[E2] OK   base-static-alpaca-k4-c1-r2 (3.7 min)
+[E2] OK   eagle-static-gsm8k-k4-c1-r2 (3.6 min)
+[E2] OK   eagle-dyn-mbpp-k4-c1-r2 (3.1 min)
+[E2] OK   eagle-static-alpaca-k4-c1-r2 (3.7 min)
+[E2] OK   base-dyn-mbpp-k8-c1-r2 (3.5 min)
+[E2] OK   scaled-static-alpaca-k8-c1-r2 (3.8 min)
+[E2] OK   scaled-dyn-alpaca-k8-c1-r2 (3.4 min)
+[E2] OK   scaled-dyn-gsm8k-k8-c1-r2 (3.4 min)
+[E2] OK   base-static-mbpp-k8-c1-r2 (3.7 min)
+[E2] OK   scaled-static-gsm8k-k8-c1-r2 (4.0 min)
+[E2] OK   eagle-static-mbpp-k4-c1-r2 (3.7 min)
+[E2] OK   base-dyn-alpaca-k4-c1-r2 (3.4 min)
+[E2] OK   base-static-gsm8k-k8-c1-r2 (3.8 min)
+[E2] OK   scaled-static-alpaca-k4-c1-r2 (3.6 min)
+[E2] OK   scaled-dyn-mbpp-k4-c1-r2 (3.1 min)
+[E2] OK   base-static-alpaca-k8-c1-r2 (4.0 min)
+[E2] OK   base-static-mbpp-k4-c1-r2 (3.7 min)
+[E2] OK   base-dyn-gsm8k-k4-c1-r2 (3.3 min)
+[E2] OK   eagle-static-gsm8k-k8-c1-r2 (3.6 min)
+[E2] OK   eagle-dyn-mbpp-k8-c1-r2 (3.2 min)
+[E2] OK   base-static-gsm8k-k4-c1-r2 (3.6 min)
+[E2] OK   eagle-dyn-gsm8k-k8-c1-r2 (3.4 min)
+[E2] --- repeat 3/3 ---
+[E2] OK   eagle-dyn-mbpp-k8-c1-r3 (3.3 min)
+[E2] OK   base-static-alpaca-k8-c1-r3 (4.0 min)
+[E2] OK   eagle-dyn-mbpp-k4-c1-r3 (3.1 min)
+[E2] OK   scaled-dyn-alpaca-k4-c1-r3 (3.3 min)
+[E2] OK   eagle-static-gsm8k-k8-c1-r3 (3.8 min)
+[E2] OK   scaled-dyn-mbpp-k4-c1-r3 (3.1 min)
+[E2] OK   eagle-dyn-gsm8k-k8-c1-r3 (3.3 min)
+[E2] OK   eagle-dyn-gsm8k-k4-c1-r3 (3.1 min)
+[E2] OK   eagle-static-gsm8k-k4-c1-r3 (3.6 min)
+[E2] OK   scaled-dyn-gsm8k-k8-c1-r3 (3.4 min)
+[E2] OK   base-dyn-alpaca-k4-c1-r3 (3.4 min)
+[E2] OK   base-static-mbpp-k8-c1-r3 (3.8 min)
+[E2] OK   base-dyn-mbpp-k8-c1-r3 (3.3 min)
+[E2] OK   eagle-static-alpaca-k4-c1-r3 (3.6 min)
+[E2] OK   scaled-dyn-alpaca-k8-c1-r3 (3.4 min)
+[E2] OK   scaled-static-mbpp-k8-c1-r3 (3.5 min)
+[E2] OK   eagle-dyn-alpaca-k4-c1-r3 (3.2 min)
+[E2] OK   base-static-gsm8k-k8-c1-r3 (3.8 min)
+[E2] OK   eagle-static-mbpp-k8-c1-r3 (3.6 min)
+[E2] OK   scaled-static-gsm8k-k8-c1-r3 (3.9 min)
+[E2] OK   eagle-static-alpaca-k8-c1-r3 (3.7 min)
+[E2] OK   base-dyn-gsm8k-k8-c1-r3 (3.5 min)
+[E2] OK   scaled-static-alpaca-k4-c1-r3 (3.5 min)
+[E2] OK   scaled-dyn-mbpp-k8-c1-r3 (3.2 min)
+[E2] OK   scaled-static-mbpp-k4-c1-r3 (3.5 min)
+[E2] OK   base-dyn-gsm8k-k4-c1-r3 (3.3 min)
+[E2] OK   base-static-alpaca-k4-c1-r3 (3.7 min)
+[E2] OK   base-dyn-mbpp-k4-c1-r3 (3.2 min)
+[E2] OK   eagle-static-mbpp-k4-c1-r3 (3.5 min)
+[E2] OK   base-dyn-alpaca-k8-c1-r3 (3.4 min)
+[E2] OK   base-static-mbpp-k4-c1-r3 (3.7 min)
+[E2] OK   eagle-dyn-alpaca-k8-c1-r3 (3.5 min)
+[E2] OK   base-static-gsm8k-k4-c1-r3 (3.6 min)
+[E2] OK   scaled-static-gsm8k-k4-c1-r3 (3.6 min)
+[E2] OK   scaled-static-alpaca-k8-c1-r3 (3.8 min)
+[E2] OK   scaled-dyn-gsm8k-k4-c1-r3 (3.3 min)
+[E2] AR baseline: mean 17.75 ms/token, CV 2.60%, range 10.54%
+[E2] AR temporal drift (first third 17.69 -> last third 17.68): 0.07% vs threshold 3%
+[E2] session accepted: no systematic baseline drift. Run-to-run noise is controlled by per-prompt AR pairing within each cell.
+[E2] {"session": "c1", "runs": 108, "failed": [], "ar_ms_per_token_min": 17.118623322458006, "ar_ms_per_token_max": 18.989121134509332, "ar_ms_per_token_mean": 17.750169133214513, "ar_range_frac": 0.10537915430626567, "ar_cv": 0.025958901790851533, "ar_early_mean": 17.68944124105878, "ar_late_mean": 17.676419870986138, "ar_temporal_drift": 0.0007361097445191855, "drift_threshold": 0.03, "rejected": false, "rejection_reason": ""}
+CHAINA_PHASE_E2_CONFIRM_DONE
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t8-r5/benchmark.png
+E4B_DONE humaneval-static-k4-t8
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t8-r5/benchmark.png
+E4B_DONE humaneval-dyn-k4-t8
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t8-r5/benchmark.png
+E4B_DONE humaneval-dyn-k8-t8
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t8-r5/benchmark.png
+E4B_DONE mtbench-static-k4-t8
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t8-r5/benchmark.png
+E4B_DONE mtbench-dyn-k4-t8
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t8-r5/benchmark.png
+E4B_DONE mtbench-dyn-k8-t8
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t32-r5/benchmark.png
+E4B_DONE humaneval-static-k4-t32
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t32-r5/benchmark.png
+E4B_DONE humaneval-dyn-k4-t32
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t32-r5/benchmark.png
+E4B_DONE humaneval-dyn-k8-t32
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t32-r5/benchmark.png
+E4B_DONE mtbench-static-k4-t32
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t32-r5/benchmark.png
+E4B_DONE mtbench-dyn-k4-t32
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t32-r5/benchmark.png
+E4B_DONE mtbench-dyn-k8-t32
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-static-k4-t208-r5/benchmark.png
+E4B_DONE humaneval-static-k4-t208
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k4-t208-r5/benchmark.png
+E4B_DONE humaneval-dyn-k4-t208
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-humaneval-dyn-k8-t208-r5/benchmark.png
+E4B_DONE humaneval-dyn-k8-t208
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-static-k4-t208-r5/benchmark.png
+E4B_DONE mtbench-static-k4-t208
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k4-t208-r5/benchmark.png
+E4B_DONE mtbench-dyn-k4-t208
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r1/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r1/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r2/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r2/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r3/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r3/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r4/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r4/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r5/benchmark.csv and /workspace/specdec-runs/results/e4/stageB-mtbench-dyn-k8-t208-r5/benchmark.png
+E4B_DONE mtbench-dyn-k8-t208
+CHAINA_PHASE_E4_STAGEB_DONE
+CHAINA_ALL_DONE

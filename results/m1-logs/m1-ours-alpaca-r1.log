@@ -1,0 +1,9 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 178.70it/s]
+/workspace/specdec/src/eval/benchmark.py:146: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(str(cfg.eval.drafter_ckpt), map_location=device)
+[eval] loaded drafter from /workspace/specdec-runs/checkpoints/drafter-20k.pt (step 20000)
+Generating train split:   0%|          | 0/52002 [00:00<?, ? examples/s]Generating train split:  35%|███▍      | 18000/52002 [00:00<00:00, 167114.84 examples/s]Generating train split:  92%|█████████▏| 48000/52002 [00:00<00:00, 241552.50 examples/s]Generating train split: 100%|██████████| 52002/52002 [00:00<00:00, 235366.19 examples/s]
+[eval] K=  4 accept= 1.68 tok/step= 2.66 spec=  15.09 ms/tok  ar=  18.46 ms/tok  speedup=1.22x
+[eval] K=  8 accept= 1.70 tok/step= 2.68 spec=  16.78 ms/tok  ar=  18.49 ms/tok  speedup=1.10x
+[eval] wrote /workspace/specdec-runs/results/m1/ours-alpaca-r1/benchmark.csv and /workspace/specdec-runs/results/m1/ours-alpaca-r1/benchmark.png

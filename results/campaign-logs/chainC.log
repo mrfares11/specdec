@@ -1,0 +1,46 @@
+CHAINC_PHASE_START
+[eval] wrote /workspace/specdec-runs/results/e5/e5-tf-s0-mtbench/benchmark.csv and /workspace/specdec-runs/results/e5/e5-tf-s0-mtbench/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e5/e5-tf-s0-humaneval/benchmark.csv and /workspace/specdec-runs/results/e5/e5-tf-s0-humaneval/benchmark.png
+E5EVAL_DONE e5-tf-s0
+ "uniform_ce": 7.88163263993106
+}
+[eval] wrote /workspace/specdec-runs/results/e5/e5-tf-s1-mtbench/benchmark.csv and /workspace/specdec-runs/results/e5/e5-tf-s1-mtbench/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e5/e5-tf-s1-humaneval/benchmark.csv and /workspace/specdec-runs/results/e5/e5-tf-s1-humaneval/benchmark.png
+E5EVAL_DONE e5-tf-s1
+ "uniform_ce": 3.6561963779534503
+}
+[eval] wrote /workspace/specdec-runs/results/e5/e5-det-s1-mtbench/benchmark.csv and /workspace/specdec-runs/results/e5/e5-det-s1-mtbench/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e5/e5-det-s1-humaneval/benchmark.csv and /workspace/specdec-runs/results/e5/e5-det-s1-humaneval/benchmark.png
+E5EVAL_DONE e5-det-s1
+ "uniform_ce": 3.7180937163835024
+}
+[eval] wrote /workspace/specdec-runs/results/e5/e5-sw-s1-mtbench/benchmark.csv and /workspace/specdec-runs/results/e5/e5-sw-s1-mtbench/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e5/e5-sw-s1-humaneval/benchmark.csv and /workspace/specdec-runs/results/e5/e5-sw-s1-humaneval/benchmark.png
+E5EVAL_DONE e5-sw-s1
+ "uniform_ce": 7.845947319835857
+}
+[eval] wrote /workspace/specdec-runs/results/e5/e5-tf-s2-mtbench/benchmark.csv and /workspace/specdec-runs/results/e5/e5-tf-s2-mtbench/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e5/e5-tf-s2-humaneval/benchmark.csv and /workspace/specdec-runs/results/e5/e5-tf-s2-humaneval/benchmark.png
+E5EVAL_DONE e5-tf-s2
+CHAINC_MISSING e5-det-s2
+CHAINC_MISSING e5-sw-s2
+CHAINC_PHASE_E5_EVAL_DONE
+CHAINC_ALL_DONE
+CHAINC_PHASE_START
+E5EVAL_DONE e5-tf-s0
+E5EVAL_DONE e5-tf-s1
+E5EVAL_DONE e5-det-s1
+E5EVAL_DONE e5-sw-s1
+E5EVAL_DONE e5-tf-s2
+ "uniform_ce": 3.8046280245600324
+}
+[eval] wrote /workspace/specdec-runs/results/e5/e5-det-s2-mtbench/benchmark.csv and /workspace/specdec-runs/results/e5/e5-det-s2-mtbench/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e5/e5-det-s2-humaneval/benchmark.csv and /workspace/specdec-runs/results/e5/e5-det-s2-humaneval/benchmark.png
+E5EVAL_DONE e5-det-s2
+ "uniform_ce": 3.706993838374913
+}
+[eval] wrote /workspace/specdec-runs/results/e5/e5-sw-s2-mtbench/benchmark.csv and /workspace/specdec-runs/results/e5/e5-sw-s2-mtbench/benchmark.png
+[eval] wrote /workspace/specdec-runs/results/e5/e5-sw-s2-humaneval/benchmark.csv and /workspace/specdec-runs/results/e5/e5-sw-s2-humaneval/benchmark.png
+E5EVAL_DONE e5-sw-s2
+CHAINC_PHASE_E5_EVAL_DONE
+CHAINC_ALL_DONE

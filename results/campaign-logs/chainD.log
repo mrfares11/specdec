@@ -1,0 +1,28 @@
+CHAIND_PHASE_START
+[train] step 4800/10000 loss=0.4364 feat=0.0990 logit=3.3736 lr=1.85e-05 (1075.3s)
+[train] step 4850/10000 loss=0.3895 feat=0.1005 logit=2.8898 lr=1.83e-05 (1047.4s)
+[train] step 4900/10000 loss=0.4395 feat=0.1042 logit=3.3530 lr=1.81e-05 (1044.8s)
+Terminated
+CHAIND_PHASE_E6_TRAIN_DONE
+CHAIND_PHASE_START
+[train] step 9950/10000 loss=0.3743 feat=0.0924 logit=2.8190 lr=3.00e-06 (525.1s)
+[train] step 10000/10000 loss=0.3853 feat=0.0932 logit=2.9202 lr=3.00e-06 (529.7s)
+[train] done at step 10000; checkpoints in /workspace/specdec-runs/checkpoints/e6-sw80k-cont
+CHAIND_PHASE_E6_TRAIN_DONE
+}
+[eval] wrote /workspace/specdec-runs/results/e6/dev-mtbench-step2000/benchmark.csv and /workspace/specdec-runs/results/e6/dev-mtbench-step2000/benchmark.png
+E6_CKPT_EVAL_DONE step_2000
+}
+[eval] wrote /workspace/specdec-runs/results/e6/dev-mtbench-step4000/benchmark.csv and /workspace/specdec-runs/results/e6/dev-mtbench-step4000/benchmark.png
+E6_CKPT_EVAL_DONE step_4000
+}
+[eval] wrote /workspace/specdec-runs/results/e6/dev-mtbench-step6000/benchmark.csv and /workspace/specdec-runs/results/e6/dev-mtbench-step6000/benchmark.png
+E6_CKPT_EVAL_DONE step_6000
+}
+[eval] wrote /workspace/specdec-runs/results/e6/dev-mtbench-step8000/benchmark.csv and /workspace/specdec-runs/results/e6/dev-mtbench-step8000/benchmark.png
+E6_CKPT_EVAL_DONE step_8000
+}
+[eval] wrote /workspace/specdec-runs/results/e6/dev-mtbench-step10000/benchmark.csv and /workspace/specdec-runs/results/e6/dev-mtbench-step10000/benchmark.png
+E6_CKPT_EVAL_DONE step_10000
+CHAIND_PHASE_E6_EVAL_DONE
+CHAIND_ALL_DONE

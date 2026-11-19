@@ -1,0 +1,109 @@
+{
+  "_comment": "Protocol section 0: every result directory is classified active | superseded | diagnostic. Generated tables must never mix categories. Machine-readable so the check is enforceable rather than a convention.",
+  "_categories": {
+    "active": "Current evidence. May appear in paper tables.",
+    "superseded": "Replaced by a later measurement. Must not appear in paper tables except as an explicitly labelled contrast.",
+    "diagnostic": "Instrumented or exploratory runs. Interpretable only as a cost decomposition or debugging aid, never as wall-clock."
+  },
+  "directories": {
+    "m5": {
+      "status": "active",
+      "note": "Final factorial, n=1 per cell; combine with m5-rep for n=3."
+    },
+    "m5-rep": {
+      "status": "active",
+      "note": "Repeats r2/r3 of every factorial cell."
+    },
+    "m5-timing": {
+      "status": "diagnostic",
+      "note": "profile_timing=true. Cost decomposition only; absolute ms inflated by timers."
+    },
+    "m3": {
+      "status": "active",
+      "note": "Matched training arms, scaling curves, held-out CE."
+    },
+    "m1": {
+      "status": "active",
+      "note": "Benchmark matrix n=3. Pre-thread-cap: static path ~2% conservative."
+    },
+    "m4": {
+      "status": "superseded",
+      "note": "TIMINGS contaminated by uncapped host threads. Acceptance columns remain valid."
+    },
+    "bench": {
+      "status": "superseded",
+      "note": "Pod-A single runs. RQ2 conclusion did not reproduce; several runs under concurrent GPU use."
+    },
+    "rq1": {
+      "status": "active",
+      "note": "Budget x allocation grid; acceptance only."
+    },
+    "rq2": {
+      "status": "superseded",
+      "note": "Superseded by m3 held-out CE."
+    },
+    "rq3": {
+      "status": "diagnostic",
+      "note": "Historical loop ladder, pod A, earlier drafter."
+    },
+    "fold": {
+      "status": "diagnostic",
+      "note": "Commit-fold development measurements."
+    },
+    "m1-logs": {
+      "status": "diagnostic",
+      "note": "Provenance logs."
+    },
+    "m3-logs": {
+      "status": "diagnostic",
+      "note": "Provenance logs."
+    },
+    "pod-logs": {
+      "status": "diagnostic",
+      "note": "All 95 pod logs."
+    },
+    "env": {
+      "status": "active",
+      "note": "H100 runtime manifest."
+    },
+    "e1": {
+      "status": "active",
+      "note": "E1 correctness. float32 free-running EXACT (52,224/52,224); bf16 fidelity and same-prefix margins. Frozen test split."
+    },
+    "e2": {
+      "status": "active",
+      "note": "E2 timing replication, sessions s1/s2/s3, per-prompt rows with paired AR. Both completed sessions passed the drift audit."
+    },
+    "e4": {
+      "status": "active",
+      "note": "E4 host thread sensitivity. sweep-* and stageB-* cells are ACTIVE (timers off, clean latency; stageB-* are five repeats per cap at 8/32/208 threads on the test prompts, analysed by scripts/make_fact_tables.py); attrib-* cells are DIAGNOSTIC (profile_timing=true, inflated absolutes) and e4_analyze.py reads only sweep-*, so the two are never mixed in a table."
+    },
+    "e8": {
+      "status": "diagnostic",
+      "note": "E8 sampling profile, profile_timing=true. Cost attribution only; absolute values inflated by the timers."
+    },
+    "e1q": {
+      "status": "active",
+      "note": "E1 procedure D (Gate A): paired downstream quality for the bf16 headline system, HumanEval pass@1 and GSM8K exact match, n=60 each. A differencing instrument: absolute scores are harness-limited and are not capability numbers."
+    },
+    "e5": {
+      "status": "active",
+      "note": "E5 seed replication (Gate E): seven arms, arm-independent held-out rollout CE plus MT-Bench/HumanEval acceptance on the frozen test split. Seeds 1-2 feed Table rq2's replication panel; e5-tf-s0 is the feature-equivalence check against the archived seed-0 run."
+    },
+    "e6": {
+      "status": "diagnostic",
+      "note": "Intended as a 20k->30k continuation but trained from random init: chainD copied the 20k checkpoint to resume_from_20k.pt, which the trainer never loads. Valid only as a 0-10k learning curve for the step-decayed objective; not evidence about training beyond 20k."
+    },
+    "campaign-logs": {
+      "status": "diagnostic",
+      "note": "Chain, watcher and sync logs from the E1-E8 pod campaign, 2026-09-03 to 2026-09-11."
+    }
+  },
+  "known_scope_limits": {
+    "precision": "All reported speed is bfloat16 and greedy. Exact equivalence verified at float32; bf16 shows near-tie argmax flips (pilot: 88.4% position agreement).",
+    "prompt_split": "Pre-protocol results used eval.prompt_split=legacy (first-n), which is NOT a dev/test separation: the scaled drafter, the recommended configuration and the thread cap were all selected on those prompts. Protocol results (e1/e2/e4/e8) use the frozen disjoint split, so they are not directly comparable to the earlier campaign by design.",
+    "sampling": "Speed claims are greedy-only. Temperature-1.0 sampling measures 0.16x.",
+    "features": "The 788 GB feature store was lost with the pod-B volume on 2026-09-03. Checkpoints, results and logs were all recovered beforehand. Re-extraction is ~20 H100-hours and is only needed for E5/E6/E9.",
+    "verifier_source": "Protocol results use NousResearch/Meta-Llama-3-8B-Instruct, verified bit-identical to meta-llama on all four weight shards by LFS SHA-256 and byte size. Our own gated access was pending at the time of the runs."
+  }
+}

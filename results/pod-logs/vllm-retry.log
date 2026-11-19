@@ -1,0 +1,9 @@
+    with launch_core_engines(
+  File "/usr/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/workspace/vllm-venv/lib/python3.11/site-packages/vllm/v1/engine/utils.py", line 1206, in launch_core_engines
+    wait_for_engine_startup(
+  File "/workspace/vllm-venv/lib/python3.11/site-packages/vllm/v1/engine/utils.py", line 1286, in wait_for_engine_startup
+    raise RuntimeError(
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
+VLLM_RETRY_FAILED

@@ -1,0 +1,25 @@
+error: Your local changes to the following files would be overwritten by merge:
+	scripts/pod-jobs/m5-factorial.sh
+Please commit your changes or stash them before you merge.
+error: The following untracked working tree files would be overwritten by merge:
+	scripts/pod-jobs/m3-rq2-matched.sh
+Please move or remove them before you merge.
+Aborting
+GIT_PULL_SKIPPED
+ ],
+ "uniform_ce": 3.328420131410302
+}
+M3_RQ2_MATCHED_CE_DONE
+[eval] K=  4 accept= 2.07 tok/step= 3.04 spec=  13.16 ms/tok  ar=  18.33 ms/tok  speedup=1.39x
+[eval] K=  8 accept= 2.19 tok/step= 3.15 spec=  14.21 ms/tok  ar=  18.26 ms/tok  speedup=1.29x
+[eval] wrote /workspace/specdec-runs/results/m3/m3-sw80k-s10-humaneval/benchmark.csv and /workspace/specdec-runs/results/m3/m3-sw80k-s10-humaneval/benchmark.png
+M3_RQ2_MATCHED_HE_DONE
+[eval] K=  4 accept= 1.92 tok/step= 2.90 spec=  14.12 ms/tok  ar=  18.71 ms/tok  speedup=1.33x
+[eval] K=  8 accept= 2.00 tok/step= 2.98 spec=  14.57 ms/tok  ar=  17.68 ms/tok  speedup=1.21x
+[eval] wrote /workspace/specdec-runs/results/m5/base-static-mbpp/benchmark.csv and /workspace/specdec-runs/results/m5/base-static-mbpp/benchmark.png
+M3_MBPP_static_DONE
+[eval] K=  4 accept= 2.83 tok/step= 3.78 spec=   9.67 ms/tok  ar=  17.91 ms/tok  speedup=1.85x
+[eval] K=  8 accept= 3.06 tok/step= 4.00 spec=  10.94 ms/tok  ar=  17.95 ms/tok  speedup=1.64x
+[eval] wrote /workspace/specdec-runs/results/m5/base-dyn-mbpp/benchmark.csv and /workspace/specdec-runs/results/m5/base-dyn-mbpp/benchmark.png
+M3_MBPP_dyn_DONE
+M3_RQ2_MATCHED_DONE

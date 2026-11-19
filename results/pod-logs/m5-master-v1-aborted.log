@@ -1,0 +1,14 @@
+M5_SCALED_DRAFTER=/workspace/specdec-runs/checkpoints/m3-sw80k/step_20000.pt
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 173.40it/s]
+/workspace/specdec/src/eval/benchmark.py:146: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(str(cfg.eval.drafter_ckpt), map_location=device)
+[eval] loaded drafter from /workspace/specdec-runs/checkpoints/drafter-20k.pt (step 20000)
+[eval] K=  4 accept= 1.67 tok/step= 2.66 spec=  14.45 ms/tok  ar=  18.11 ms/tok  speedup=1.25x
+[eval] wrote /workspace/specdec-runs/results/m5/base-static-mtbench-k4/benchmark.csv and /workspace/specdec-runs/results/m5/base-static-mtbench-k4/benchmark.png
+M5_base-static-mtbench-k4_DONE
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 174.37it/s]
+/workspace/specdec/src/eval/benchmark.py:146: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(str(cfg.eval.drafter_ckpt), map_location=device)
+[eval] loaded drafter from /workspace/specdec-runs/checkpoints/drafter-20k.pt (step 20000)

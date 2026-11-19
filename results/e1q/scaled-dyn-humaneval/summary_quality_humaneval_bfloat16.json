@@ -1,0 +1,14 @@
+{
+  "benchmark": "humaneval",
+  "precision": "bfloat16",
+  "n": 60,
+  "speculative_score": 0.25,
+  "ar_score": 0.21666666666666667,
+  "paired_difference": 0.033333333333333326,
+  "difference_ci95": [
+    -0.03333333333333333,
+    0.1
+  ],
+  "identical_outputs": 29,
+  "largest_degradation_compatible_with_ci": 0.03333333333333333
+}

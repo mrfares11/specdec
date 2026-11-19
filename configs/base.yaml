@@ -1,0 +1,124 @@
+# ── Single source of truth. Pod defaults (/workspace). Merge configs/local.yaml
+#    or use --set overrides for local runs. Use forward slashes in path overrides.
+
+K: 8                              # ★ draft horizon — the unifying variable
+
+paths:
+  root: /workspace/specdec-runs   # persistent network volume; NEVER /root (ephemeral). Code lives in /workspace/specdec — keep data out of the repo dir.
+  features: ${paths.root}/features
+  checkpoints: ${paths.root}/checkpoints
+  results: ${paths.root}/results
+
+runtime:
+  device: auto                    # auto | cpu | cuda | cuda:N  (src/common/device.py)
+  dtype: auto                     # auto (bf16 on cuda, fp32 on cpu) | float32 | bfloat16 | float16
+  seed: 0
+
+target:                           # frozen verifier — never trained
+  source: hub                     # hub | random (random = tiny test model, no network)
+  model_id: meta-llama/Meta-Llama-3-8B-Instruct
+  revision: null
+  attn_implementation: sdpa       # tiny.yaml uses eager (safest with custom 4D tree masks)
+  random_config:                  # used only when source: random
+    num_hidden_layers: 2
+    hidden_size: 128
+    num_attention_heads: 4
+    num_key_value_heads: 2
+    intermediate_size: 256
+    vocab_size: 256
+    max_position_embeddings: 512
+
+drafter:                          # the only trainable component
+  num_layers: 1
+  hidden_size: 4096               # must match target hidden size
+  num_heads: 32
+  num_kv_heads: 8
+  intermediate_size: 14336
+  rope_theta: 500000.0
+  apply_final_norm: true          # lm_head(final_norm(feat)); embed/norm/head borrowed frozen from target
+  fc_bias: false                  # official EAGLE ckpts: true (configs/eagle.yaml)
+  layer0_no_input_norm: false     # official EAGLE ckpts skip layer-0 input RMSNorm: true when importing
+
+tree:                             # RQ1 core object (src/decode/tree.py)
+  num_nodes: 64                   # total draft tokens per verification step
+  max_depth: ${K}
+  allocation: uniform             # key into the allocation registry: uniform | geometric | <custom>
+  geometric:                      # params for allocation=geometric (subsection name == strategy name)
+    decay: 0.5                    # per-depth node count ∝ decay^depth
+  parents_file: null              # explicit static topology (JSON from scripts/e9_build_tree.py);
+                                  # overrides allocation; must match num_nodes and max_depth
+
+sampling:
+  temperature: 1.0                # losslessness must hold at any temperature
+  top_p: 1.0                      # reserved (not yet applied in scaffold)
+
+decode:
+  commit_fold: true               # ONE target forward/step: pending token rides the tree forward (RQ3)
+  dynamic_tree: false             # M4: per-step global parent competition under the same level budget
+                                  # (greedy + commit_fold only; tree.allocation still sets the level profile)
+  kv_gather: true                 # (commit_fold=false only) gather accepted-path KV vs crop+replay
+  profile_timing: false           # sync-bracketed per-phase timers (RQ3 decomposition; slows decode)
+
+profiling:                        # Phase 0 — src/profiling/verifier_latency.py
+  token_counts: [1, 2, 4, 8, 16, 32, 64, 128]
+  prefix_len: 1024                # realistic KV-cache prefix ahead of the query batch
+  warmup_iters: 3
+  timed_iters: 20
+  out_dir: ${paths.results}/profiling
+
+data:                             # src/data/extract_features.py
+  dataset_name: Aeala/ShareGPT_Vicuna_unfiltered   # "_random" = synthetic ids (offline sanity)
+  dataset_config: null
+  split: train
+  text_field: conversations       # ShareGPT-style list of {from, value} turns, or a plain-text field
+  max_samples: null               # null = whole split
+  max_seq_len: 2048
+  layer_index: -2                 # hidden_states index; see docs/working-agreements.md note
+  feature_tap: index              # index = hidden_states[layer_index]; prenorm_last = last-layer output
+                                  # BEFORE final norm (EAGLE's native feature space, hook-captured —
+                                  # not reachable via layer_index; eval-side only)
+  storage_dtype: float16
+  shard_tokens: 500000            # ~4 GB/shard at hidden 4096 fp16
+  out_dir: ${paths.features}/llama3-8b
+  resume: true                    # skip samples already recorded in manifest.json
+  dry_run: false                  # true = print disk estimate and exit before writing
+  estimate_samples: 200           # samples used to extrapolate the size estimate
+
+train:                            # src/train/train_drafter.py
+  rollout_K: ${K}                 # HASS-style multi-step self-rollout horizon
+  rollout_detach: false           # detach predicted features between rollout steps
+  target_dtype: float32           # pod: bfloat16 (bound embed/norm/head re-cast to fp32 copies)
+  allow_tf32: false               # pod: true — TF32 matmuls (~3x on H100); keep false for CPU-exact tests
+  ce_chunk: 256                   # soft-CE chunk length (tokens); 0 = unchunked. Chunked path enables
+                                  # backprop-through-rollout at pod batch (see losses.py memory note)
+  rollout_step_decay: 1.0         # per-rollout-step loss weight ∝ decay^s (normalized). 1.0 = uniform
+                                  # (the RQ2 campaign objective); <1 anchors early steps — acceptance is
+                                  # dominated by step-1 token fidelity (measured RQ2 finding)
+  lr: 3.0e-5
+  weight_decay: 0.01
+  warmup_steps: 500
+  batch_size: 4
+  grad_accum: 4
+  max_steps: 40000
+  max_grad_norm: 1.0
+  loss:
+    w_feat: 1.0                   # smooth-L1 on predicted features
+    w_logit: 0.1                  # soft CE vs target logits (exact only for layer_index=-1)
+  log_every: 50
+  save_every: 2000
+  resume: true
+  ckpt_dir: ${paths.checkpoints}/drafter
+
+eval:                             # src/eval/benchmark.py
+  K_sweep: [1, 2, 4, 8, 16, 32]
+  max_new_tokens: 256
+  num_prompts: 80
+  greedy: true                    # deterministic benchmark; false = temperature sampling
+  drafter_ckpt: null              # path to latest.pt; null = random-init drafter (smoke only)
+  prompt_source: builtin          # builtin | sharegpt (held-out) | mtbench | humaneval | gsm8k | alpaca
+  prompt_split: legacy            # legacy | dev | test -- legacy = first-n (what every
+                                  # pre-plan result used; NOT a dev/test separation).
+                                  # dev: choose checkpoints/caps/configs. test: report only.
+  prompt_dev_size: 200            # rows reserved to dev in the frozen permutation
+  heldout_offset: 100000          # first ShareGPT row used for eval prompts (train used 0..80k)
+  out_dir: ${paths.results}/eval

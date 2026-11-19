@@ -1,0 +1,12 @@
+{
+ "plan": "q3-transfer",
+ "session": "d1",
+ "runs": 24,
+ "failed": [],
+ "ar_ms_per_token_mean": 18.032968166461732,
+ "ar_early_mean": 18.068906899927242,
+ "ar_late_mean": 18.022554151376728,
+ "ar_temporal_drift": 0.002570444761097227,
+ "drift_threshold": 0.03,
+ "rejected": false
+}

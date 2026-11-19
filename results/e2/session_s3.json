@@ -1,0 +1,16 @@
+{
+  "session": "s3",
+  "runs": 48,
+  "failed": [],
+  "ar_ms_per_token_min": 17.15636375185568,
+  "ar_ms_per_token_max": 19.90051367552951,
+  "ar_ms_per_token_mean": 17.9391580197868,
+  "ar_range_frac": 0.15296982838587228,
+  "ar_cv": 0.027985320274661926,
+  "ar_early_mean": 18.020695181039628,
+  "ar_late_mean": 17.90718110776652,
+  "ar_temporal_drift": 0.006299095131054766,
+  "drift_threshold": 0.03,
+  "rejected": false,
+  "rejection_reason": ""
+}

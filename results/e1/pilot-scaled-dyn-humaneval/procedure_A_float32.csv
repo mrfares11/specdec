@@ -1,0 +1,9 @@
+precision,K,prompt_id,spec_len,ar_len,compared,first_divergence,agreeing_prefix,positions_matched,positions_compared,sequence_exact_match
+float32,4,112,128,128,128,-1,128,128,128,1
+float32,4,99,128,128,128,-1,128,128,128,1
+float32,4,93,128,128,128,-1,128,128,128,1
+float32,4,138,128,128,128,-1,128,128,128,1
+float32,4,15,128,128,128,-1,128,128,128,1
+float32,4,48,128,128,128,-1,128,128,128,1
+float32,4,76,128,128,128,-1,128,128,128,1
+float32,4,44,128,128,128,-1,128,128,128,1

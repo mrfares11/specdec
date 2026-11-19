@@ -1,0 +1,12 @@
+{
+ "plan": "q3-scaled",
+ "session": "d1",
+ "runs": 36,
+ "failed": [],
+ "ar_ms_per_token_mean": 18.074709179763886,
+ "ar_early_mean": 17.960346639095707,
+ "ar_late_mean": 18.041850395202346,
+ "ar_temporal_drift": 0.0045092706773887355,
+ "drift_threshold": 0.03,
+ "rejected": false
+}

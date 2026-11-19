@@ -1,0 +1,14 @@
+{
+  "benchmark": "gsm8k",
+  "precision": "bfloat16",
+  "n": 60,
+  "speculative_score": 0.4166666666666667,
+  "ar_score": 0.4166666666666667,
+  "paired_difference": 0.0,
+  "difference_ci95": [
+    -0.06666666666666667,
+    0.06666666666666667
+  ],
+  "identical_outputs": 15,
+  "largest_degradation_compatible_with_ci": 0.06666666666666667
+}

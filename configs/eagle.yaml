@@ -1,0 +1,36 @@
+# Overlay for running the OFFICIAL EAGLE LLaMA3-8B-Instruct drafter weights
+# (yuhuili/EAGLE-LLaMA3-Instruct-8B) through OUR harness — same verifier, same
+# tree construction, same lossless verification, same benchmark prompts as our
+# drafter, so results are directly comparable row-for-row.
+#
+# Usage (pod):
+#   python scripts/import_eagle_weights.py \
+#       --src yuhuili/EAGLE-LLaMA3-Instruct-8B \
+#       --out /workspace/specdec-runs/checkpoints/eagle-import/eagle.pt
+#   python scripts/run_eval.py --config configs/base.yaml configs/eagle.yaml \
+#       --set eval.prompt_source=humaneval
+#
+# Architecture deltas vs our drafter (all handled by these flags):
+#   - decoder layer 0 has NO input RMSNorm
+#   - EAGLE's feature space is the POST-final-norm hidden state: their drafter
+#     consumes the base model's last_hidden_state (hidden_states[-1] in HF) and
+#     applies lm_head to drafter outputs with NO extra norm. In our config
+#     terms that is exactly layer_index=-1 + apply_final_norm=false (the
+#     pairing validate_feature_config enforces). A first run with a pre-norm
+#     tap produced accept=0.68 on HumanEval — feature-space mismatch, fixed here.
+# The LLaMA3-Instruct-8B checkpoint's fc has NO bias (verified from its keys:
+# fc.weight only) — some other EAGLE releases do have one; set fc_bias to
+# match whatever `import_eagle_weights.py` reports for the checkpoint in use.
+
+drafter:
+  fc_bias: false
+  layer0_no_input_norm: true
+  apply_final_norm: false
+
+data:
+  layer_index: -1
+  feature_tap: index
+
+eval:
+  drafter_ckpt: ${paths.checkpoints}/eagle-import/eagle.pt
+  out_dir: ${paths.results}/eval-eagle

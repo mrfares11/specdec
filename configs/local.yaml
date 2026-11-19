@@ -1,0 +1,14 @@
+# ── Local-machine overlay (real target, local paths). Example:
+#    python scripts/profile_verifier.py --config configs/base.yaml configs/local.yaml
+#
+# Point paths.root somewhere UNSYNCED (not OneDrive) before extracting features.
+
+paths:
+  root: C:/path/to/specdec-runs
+
+runtime:
+  device: auto                    # resolves to cpu on this machine
+
+profiling:
+  prefix_len: 256                 # 8B on CPU: keep the prefix modest
+  timed_iters: 5

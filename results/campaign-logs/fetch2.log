@@ -1,0 +1,6 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:16<00:50, 16.98s/it]Fetching 4 files:  50%|█████     | 2/4 [00:49<00:49, 24.93s/it]Fetching 4 files:  75%|███████▌  | 3/4 [00:50<00:16, 16.69s/it]Fetching 4 files: 100%|██████████| 4/4 [00:51<00:00, 12.95s/it]Fetching 4 files: 100%|██████████| 4/4 [00:51<00:00, 12.95s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 107.78it/s]
+VERIFIER_CACHED params=8.03B vocab=128256 layers=32
+TOKENIZER_VOCAB_SHA d24c7d030cc8ccba size 128256
+FETCH2_DONE

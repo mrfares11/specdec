@@ -1,0 +1,12 @@
+{
+ "plan": "w3",
+ "session": "d1",
+ "runs": 32,
+ "failed": [],
+ "ar_ms_per_token_mean": 18.03140552366612,
+ "ar_early_mean": 18.081908332870544,
+ "ar_late_mean": 18.05807130992021,
+ "ar_temporal_drift": 0.0013219725394700561,
+ "drift_threshold": 0.03,
+ "rejected": false
+}

@@ -1,0 +1,111 @@
+[eval] K=  8 accept= 1.67 tok/step= 2.65 spec=  16.48 ms/tok  ar=  17.84 ms/tok  speedup=1.08x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-static-mtbench-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-static-mtbench-r2/benchmark.png
+M5REP_base-static-mtbench_r2_DONE
+[eval] K=  8 accept= 2.33 tok/step= 3.29 spec=  13.12 ms/tok  ar=  17.88 ms/tok  speedup=1.36x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-dyn-mtbench-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-dyn-mtbench-r2/benchmark.png
+M5REP_base-dyn-mtbench_r2_DONE
+[eval] K=  8 accept= 1.95 tok/step= 2.92 spec=  15.45 ms/tok  ar=  18.47 ms/tok  speedup=1.20x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-static-mtbench-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-static-mtbench-r2/benchmark.png
+M5REP_scaled-static-mtbench_r2_DONE
+[eval] K=  8 accept= 2.78 tok/step= 3.74 spec=  11.83 ms/tok  ar=  18.58 ms/tok  speedup=1.57x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-dyn-mtbench-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-dyn-mtbench-r2/benchmark.png
+M5REP_scaled-dyn-mtbench_r2_DONE
+[eval] K=  8 accept= 1.81 tok/step= 2.78 spec=  15.38 ms/tok  ar=  17.93 ms/tok  speedup=1.17x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-static-mtbench-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-static-mtbench-r2/benchmark.png
+M5REP_eagle-static-mtbench_r2_DONE
+[eval] K=  8 accept= 2.53 tok/step= 3.48 spec=  12.11 ms/tok  ar=  17.90 ms/tok  speedup=1.48x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-dyn-mtbench-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-dyn-mtbench-r2/benchmark.png
+M5REP_eagle-dyn-mtbench_r2_DONE
+[eval] K=  8 accept= 2.04 tok/step= 3.00 spec=  15.17 ms/tok  ar=  18.68 ms/tok  speedup=1.23x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-static-humaneval-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-static-humaneval-r2/benchmark.png
+M5REP_base-static-humaneval_r2_DONE
+[eval] K=  8 accept= 3.15 tok/step= 4.10 spec=  10.60 ms/tok  ar=  17.93 ms/tok  speedup=1.69x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-dyn-humaneval-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-dyn-humaneval-r2/benchmark.png
+M5REP_base-dyn-humaneval_r2_DONE
+[eval] K=  8 accept= 2.54 tok/step= 3.48 spec=  12.86 ms/tok  ar=  18.19 ms/tok  speedup=1.41x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-static-humaneval-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-static-humaneval-r2/benchmark.png
+M5REP_scaled-static-humaneval_r2_DONE
+[eval] K=  8 accept= 3.79 tok/step= 4.71 spec=   9.41 ms/tok  ar=  18.37 ms/tok  speedup=1.95x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-dyn-humaneval-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-dyn-humaneval-r2/benchmark.png
+M5REP_scaled-dyn-humaneval_r2_DONE
+[eval] K=  8 accept= 2.34 tok/step= 3.30 spec=  13.61 ms/tok  ar=  18.72 ms/tok  speedup=1.38x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-static-humaneval-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-static-humaneval-r2/benchmark.png
+M5REP_eagle-static-humaneval_r2_DONE
+[eval] K=  8 accept= 3.40 tok/step= 4.32 spec=   9.79 ms/tok  ar=  17.94 ms/tok  speedup=1.83x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-dyn-humaneval-r2/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-dyn-humaneval-r2/benchmark.png
+M5REP_eagle-dyn-humaneval_r2_DONE
+[eval] K=  8 accept= 1.67 tok/step= 2.65 spec=  16.56 ms/tok  ar=  18.06 ms/tok  speedup=1.09x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-static-mtbench-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-static-mtbench-r3/benchmark.png
+M5REP_base-static-mtbench_r3_DONE
+[eval] K=  8 accept= 2.33 tok/step= 3.29 spec=  13.10 ms/tok  ar=  17.76 ms/tok  speedup=1.36x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-dyn-mtbench-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-dyn-mtbench-r3/benchmark.png
+M5REP_base-dyn-mtbench_r3_DONE
+[eval] K=  8 accept= 1.95 tok/step= 2.92 spec=  15.46 ms/tok  ar=  18.38 ms/tok  speedup=1.19x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-static-mtbench-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-static-mtbench-r3/benchmark.png
+M5REP_scaled-static-mtbench_r3_DONE
+[eval] K=  8 accept= 2.78 tok/step= 3.74 spec=  11.56 ms/tok  ar=  17.90 ms/tok  speedup=1.55x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-dyn-mtbench-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-dyn-mtbench-r3/benchmark.png
+M5REP_scaled-dyn-mtbench_r3_DONE
+[eval] K=  8 accept= 1.81 tok/step= 2.78 spec=  15.28 ms/tok  ar=  17.97 ms/tok  speedup=1.18x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-static-mtbench-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-static-mtbench-r3/benchmark.png
+M5REP_eagle-static-mtbench_r3_DONE
+[eval] K=  8 accept= 2.53 tok/step= 3.48 spec=  12.36 ms/tok  ar=  18.55 ms/tok  speedup=1.50x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-dyn-mtbench-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-dyn-mtbench-r3/benchmark.png
+M5REP_eagle-dyn-mtbench_r3_DONE
+[eval] K=  8 accept= 2.04 tok/step= 3.00 spec=  14.61 ms/tok  ar=  17.91 ms/tok  speedup=1.23x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-static-humaneval-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-static-humaneval-r3/benchmark.png
+M5REP_base-static-humaneval_r3_DONE
+[eval] K=  8 accept= 3.15 tok/step= 4.10 spec=  10.55 ms/tok  ar=  17.95 ms/tok  speedup=1.70x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/base-dyn-humaneval-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/base-dyn-humaneval-r3/benchmark.png
+M5REP_base-dyn-humaneval_r3_DONE
+[eval] K=  8 accept= 2.54 tok/step= 3.48 spec=  12.96 ms/tok  ar=  18.31 ms/tok  speedup=1.41x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-static-humaneval-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-static-humaneval-r3/benchmark.png
+M5REP_scaled-static-humaneval_r3_DONE
+[eval] K=  8 accept= 3.79 tok/step= 4.71 spec=   9.21 ms/tok  ar=  17.80 ms/tok  speedup=1.93x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/scaled-dyn-humaneval-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/scaled-dyn-humaneval-r3/benchmark.png
+M5REP_scaled-dyn-humaneval_r3_DONE
+[eval] K=  8 accept= 2.34 tok/step= 3.30 spec=  13.09 ms/tok  ar=  18.15 ms/tok  speedup=1.39x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-static-humaneval-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-static-humaneval-r3/benchmark.png
+M5REP_eagle-static-humaneval_r3_DONE
+[eval] K=  8 accept= 3.40 tok/step= 4.32 spec=   9.76 ms/tok  ar=  18.04 ms/tok  speedup=1.85x
+[eval] wrote /workspace/specdec-runs/results/m5-rep/eagle-dyn-humaneval-r3/benchmark.csv and /workspace/specdec-runs/results/m5-rep/eagle-dyn-humaneval-r3/benchmark.png
+M5REP_eagle-dyn-humaneval_r3_DONE
+M5_REPEATS_DONE
+[eval] K=  8 accept= 1.67 tok/step= 2.65 spec=  16.49 ms/tok  ar=  17.79 ms/tok  speedup=1.08x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/base-static-mtbench/benchmark.csv and /workspace/specdec-runs/results/m5-timing/base-static-mtbench/benchmark.png
+M5TIME_base-static-mtbench_DONE
+[eval] K=  8 accept= 2.33 tok/step= 3.29 spec=  13.17 ms/tok  ar=  17.79 ms/tok  speedup=1.35x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/base-dyn-mtbench/benchmark.csv and /workspace/specdec-runs/results/m5-timing/base-dyn-mtbench/benchmark.png
+M5TIME_base-dyn-mtbench_DONE
+[eval] K=  8 accept= 1.95 tok/step= 2.92 spec=  15.36 ms/tok  ar=  18.27 ms/tok  speedup=1.19x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/scaled-static-mtbench/benchmark.csv and /workspace/specdec-runs/results/m5-timing/scaled-static-mtbench/benchmark.png
+M5TIME_scaled-static-mtbench_DONE
+[eval] K=  8 accept= 2.78 tok/step= 3.74 spec=  11.49 ms/tok  ar=  17.59 ms/tok  speedup=1.53x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/scaled-dyn-mtbench/benchmark.csv and /workspace/specdec-runs/results/m5-timing/scaled-dyn-mtbench/benchmark.png
+M5TIME_scaled-dyn-mtbench_DONE
+[eval] K=  8 accept= 1.81 tok/step= 2.78 spec=  15.44 ms/tok  ar=  18.03 ms/tok  speedup=1.17x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/eagle-static-mtbench/benchmark.csv and /workspace/specdec-runs/results/m5-timing/eagle-static-mtbench/benchmark.png
+M5TIME_eagle-static-mtbench_DONE
+[eval] K=  8 accept= 2.53 tok/step= 3.48 spec=  12.06 ms/tok  ar=  17.68 ms/tok  speedup=1.47x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/eagle-dyn-mtbench/benchmark.csv and /workspace/specdec-runs/results/m5-timing/eagle-dyn-mtbench/benchmark.png
+M5TIME_eagle-dyn-mtbench_DONE
+[eval] K=  8 accept= 2.04 tok/step= 3.00 spec=  14.55 ms/tok  ar=  17.70 ms/tok  speedup=1.22x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/base-static-humaneval/benchmark.csv and /workspace/specdec-runs/results/m5-timing/base-static-humaneval/benchmark.png
+M5TIME_base-static-humaneval_DONE
+[eval] K=  8 accept= 3.15 tok/step= 4.10 spec=  10.60 ms/tok  ar=  17.96 ms/tok  speedup=1.69x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/base-dyn-humaneval/benchmark.csv and /workspace/specdec-runs/results/m5-timing/base-dyn-humaneval/benchmark.png
+M5TIME_base-dyn-humaneval_DONE
+[eval] K=  8 accept= 2.54 tok/step= 3.48 spec=  13.73 ms/tok  ar=  19.04 ms/tok  speedup=1.39x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/scaled-static-humaneval/benchmark.csv and /workspace/specdec-runs/results/m5-timing/scaled-static-humaneval/benchmark.png
+M5TIME_scaled-static-humaneval_DONE
+[eval] K=  8 accept= 3.79 tok/step= 4.71 spec=   9.67 ms/tok  ar=  18.72 ms/tok  speedup=1.94x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/scaled-dyn-humaneval/benchmark.csv and /workspace/specdec-runs/results/m5-timing/scaled-dyn-humaneval/benchmark.png
+M5TIME_scaled-dyn-humaneval_DONE
+[eval] K=  8 accept= 2.34 tok/step= 3.30 spec=  13.20 ms/tok  ar=  18.18 ms/tok  speedup=1.38x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/eagle-static-humaneval/benchmark.csv and /workspace/specdec-runs/results/m5-timing/eagle-static-humaneval/benchmark.png
+M5TIME_eagle-static-humaneval_DONE
+[eval] K=  8 accept= 3.40 tok/step= 4.32 spec=   9.77 ms/tok  ar=  18.03 ms/tok  speedup=1.85x
+[eval] wrote /workspace/specdec-runs/results/m5-timing/eagle-dyn-humaneval/benchmark.csv and /workspace/specdec-runs/results/m5-timing/eagle-dyn-humaneval/benchmark.png
+M5TIME_eagle-dyn-humaneval_DONE
+M5_TIMING_DONE
+M5_COMPLIANCE_ALL_DONE
