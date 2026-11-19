@@ -62,3 +62,7 @@ pytest
   year    = {2026}
 }
 ```
+
+## License
+
+The code is released under the MIT License; see [LICENSE](LICENSE).
